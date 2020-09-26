@@ -47,12 +47,12 @@ public class WebCommonSteps {
 		
 	}
 	
-	@Then("User log out the application")
-	public void user_log_out_the_application() {
-		context.getpageObjectManagerValue().getLogout().getInitiateLogout().get(0).click();
-		context.getpageObjectManagerValue().getLogout().getLogoutClick().get(0).click();
+	@Then("User logs out of the application")
+	public void user_logs_out_of_the_application() {
+		context.getpageObjectManagerValue().getLogout().getInitiateLogout().click();
+		context.getpageObjectManagerValue().getLogout().getLogoutClick().click();
 		Assert.assertTrue("Logout Assert:",
-				page_object_manager.getLogout().getLogoutVP().get(0).getText().equalsIgnoreCase("success"));
+				page_object_manager.getLogout().getLogoutVP().getText().equalsIgnoreCase("success"));
 		System.out.println("Logout successful");
 
 	}

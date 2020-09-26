@@ -1,6 +1,6 @@
 package com.pages;
 
-import java.util.List;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,25 +15,33 @@ public class Logout {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
-	@FindBy(xpath = "//img[@class='user-avatar rounded-circle']")
-	private List<WebElement> initiateLogout;
 	
-	public List<WebElement> getInitiateLogout() {
+	
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getInitiateLogout() {
 		return initiateLogout;
 	}
 
-	public List<WebElement> getLogoutClick() {
+	public WebElement getLogoutClick() {
 		return logoutClick;
 	}
 
-	public List<WebElement> getLogoutVP() {
+	public WebElement getLogoutVP() {
 		return logoutVP;
 	}
+
+
+
+	@FindBy(xpath = "//img[@class='user-avatar rounded-circle']")
+	private WebElement initiateLogout;
 	
 	@FindBy(xpath = "//*[@id=\'header\']/div/div[2]/div[1]/div/a[3]")
-	private List<WebElement> logoutClick;
+	private WebElement logoutClick;
 	
 	@FindBy(xpath = "//span[@class='badge badge-pill badge-success']")
-	private List<WebElement> logoutVP;
+	private WebElement logoutVP;
 }
