@@ -10,7 +10,7 @@ Feature: Digital Bank
     And User initiate the fund transfer
     And User inputs the senderAccount, receiverAccount and amount to complete  the fund transfer
     And Verify user completes the fund transfer successfully
-    Then User logs out the application
+    Then User logs out of the application
 
     Examples: 
       | TestCaseID |
