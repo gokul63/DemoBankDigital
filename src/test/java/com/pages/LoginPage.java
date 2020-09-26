@@ -3,6 +3,7 @@ package com.pages;
 
 import java.util.List;
 
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
 
@@ -16,51 +17,35 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public WebElement getLstTextUserName() {
-		return lstTextUserName;
-	}
-
-	public WebElement getLstTextPassword() {
-		return lstTextPassword;
-	}
-
-	public WebElement getLstLoginButton() {
-		return lstLoginButton;
-	}
-
-	public List<WebElement> getLstConfirmText() {
-		return lstConfirmText;
-	}
-	
-	
-
-	public List<WebElement> getLstWelcomeText() {
-		return lstWelcomeText;
-	}
-
-
-
 	@FindBy(id = "username")
-	private  WebElement lstTextUserName;
+	private  WebElement TextUserName;
 	
 	@FindBy(id = "password")
-	private  WebElement lstTextPassword;
+	private  WebElement TextPassword;
 	
 	@FindBy(id = "submit")
-	private  WebElement lstLoginButton;
+	private  WebElement LoginButton;
 	
 	@FindBy(linkText="Sign Up Here")
-	private List<WebElement> lstConfirmText;
+	private WebElement ConfirmText;
 	
-	@FindBy(xpath ="//li[@class='active']")
-	private  List<WebElement> lstWelcomeText;
+
 	
-	public void performLogin(String userName, String password) {
-	lstTextUserName.sendKeys(userName);
-	lstTextPassword.sendKeys(password);
-	lstLoginButton.click();
+	public void performLogin(String userName, String userPassword) {
+		System.out.println(userName);
+		System.out.println(userPassword);
+	TextUserName.sendKeys(userName);
+	TextPassword.sendKeys(userPassword);
+	LoginButton.click();
 	}
+	
+	public void loginPageAssertVerify(String text)
+	{
+		Assert.assertTrue("Login Page Assert",
+				ConfirmText.getText().equals(text));
 	}
 	
+	
+	}
 	
 
