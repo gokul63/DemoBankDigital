@@ -1,6 +1,6 @@
 package com.pages;
 
-import java.util.List;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,66 +16,83 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public List<WebElement> getLstTransfer() {
+	
+	
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getLstTransfer() {
 		return lstTransfer;
 	}
 
-	public List<WebElement> getLstBetweenAccount() {
+	public WebElement getLstBetweenAccount() {
 		return lstBetweenAccount;
 	}
 
-	public List<WebElement> getLstConfirmText() {
+	public WebElement getLstConfirmText() {
 		return lstConfirmText;
 	}
 
-	public List<WebElement> getLstSavings() {
+	public WebElement getLstSavings() {
 		return lstSavings;
 	}
 
-	public List<WebElement> getLstViewSavings() {
+	public WebElement getLstViewSavings() {
 		return lstViewSavings;
 	}
 
-	public List<WebElement> getLstTextUser() {
+	public WebElement getLstTextUser() {
 		return lstTextUser;
 	}
 
-	public List<WebElement> getLstUserBalance() {
+	public WebElement getLstUserBalance() {
 		return lstUserBalance;
 	}
 
-	public List<WebElement> getLstUserLogo() {
+	public WebElement getLstUserLogo() {
 		return lstUserLogo;
 	}
 
-	public List<WebElement> getLstLogout() {
+	public WebElement getLstLogout() {
 		return lstLogout;
 	}
 
+	public WebElement getWelcomeText() {
+		return WelcomeText;
+	}
+
+
+
+
 	@FindBy(linkText = "Transfer")
-	private List<WebElement> lstTransfer;
+	private WebElement lstTransfer;
 
 	@FindBy(linkText = "Between Accounts")
-	private List<WebElement> lstBetweenAccount;
+	private WebElement lstBetweenAccount;
 
 	@FindBy(xpath = "//strong[@class='card-title text-white']")
-	private List<WebElement> lstConfirmText;
+	private WebElement lstConfirmText;
 
 	@FindBy(linkText = "Savings")
-	private List<WebElement> lstSavings;
+	private WebElement lstSavings;
 
 	@FindBy(linkText = "View Savings")
-	private List<WebElement> lstViewSavings;
+	private WebElement lstViewSavings;
 
 	@FindBy(xpath = "//div[text()='gok']")
-	private List<WebElement> lstTextUser;
+	private WebElement lstTextUser;
 
 	@FindBy(xpath = "//div[contains(text(),'Balance')]")
-	private List<WebElement> lstUserBalance;
+	private WebElement lstUserBalance;
 
 	@FindBy(xpath = "//img[@class='user-avatar rounded-circle']")
-	private List<WebElement> lstUserLogo;
+	private WebElement lstUserLogo;
 
 	@FindBy(linkText = "Logout")
-	private List<WebElement> lstLogout;
+	private WebElement lstLogout;
+	
+	@FindBy(xpath = "//li[contains(text(),'Welcome')]")
+	private WebElement WelcomeText;
 }

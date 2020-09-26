@@ -1,5 +1,7 @@
 package com.pages;
 
+
+
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -17,14 +19,70 @@ public class SavingsPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
+	
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getSavingsMenu() {
+		return savingsMenu;
+	}
+
+	public WebElement getSavingsPage() {
+		return savingsPage;
+	}
+
+	public WebElement getFirstBalance() {
+		return firstBalance;
+	}
+
+	public List<WebElement> getAccountList() {
+		return accountList;
+	}
+
+	public WebElement getNewSavings() {
+		return newSavings;
+	}
+
+	public WebElement getNewSavingsHeading() {
+		return newSavingsHeading;
+	}
+
+	public WebElement getAccountType() {
+		return accountType;
+	}
+
+	public WebElement getAccountOwnership() {
+		return accountOwnership;
+	}
+
+	public WebElement getAccountName() {
+		return accountName;
+	}
+
+	public WebElement getOpenBal() {
+		return openBal;
+	}
+
+	public WebElement getSavingSubmit() {
+		return savingSubmit;
+	}
+
+	public WebElement getViewSavingAcc() {
+		return viewSavingAcc;
+	}
+
+
+
 	@FindBy(id = "savings-menu")
-	private List<WebElement> savingsMenu;
+	private WebElement savingsMenu;
 	
 	@FindBy(linkText = "View Savings")
-	private List<WebElement> savingsPage;
+	private WebElement savingsPage;
 	
 	@FindBy(xpath = "//*[@id='transactionTable']/tbody/tr[1]/td[5]")
-	private List<WebElement> firstBalance;
+	private WebElement firstBalance;
 	
 	@FindBy(xpath = "(//div[@class='card-body'][1])")
 	private List<WebElement> accountList;
@@ -55,48 +113,6 @@ public class SavingsPage {
 	
 	
 	
-	public List<WebElement> getSavingsMenu() {
-		return savingsMenu;
-	}
-
-
-	public List<WebElement> getSavingsPage() {
-		return savingsPage;
-	}
-
-
-	public List<WebElement> getFirstBalance() {
-		return firstBalance;
-	}
 	
-	public WebElement getNewsavingsheading() {
-		return newSavingsHeading;
-	}
-	public WebElement getNewsavings() {
-		return newSavings;
-	}
-	public WebElement getAccountType() {
-		return accountType;
-	}
-	public WebElement getAccountOwnership() {
-		return accountOwnership;
-	}
-
-	public WebElement getAccountName() {
-		return accountName;
-	}
-	public WebElement getOpenBalance() {
-		return openBal;
-	}
-	public WebElement getCreateAccount() {
-		return savingSubmit;
-	}
-
-	public List<WebElement> getAccountList() {
-		return accountList;
-	}
-	public WebElement getViewAc() {
-		return viewSavingAcc;
-	}
 
 }

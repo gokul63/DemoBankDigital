@@ -1,6 +1,7 @@
 com\pages\FundTransferPage.class
 com\pages\TransactionPage.class
 com\pages\SavingsPage.class
+ExcelData\ExcelData.class
 com\pages\HomePage.class
 com\pages\Logout.class
 com\runner\WebRunner.class

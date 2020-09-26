@@ -1,6 +1,6 @@
 package com.pages;
 
-import java.util.List;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,55 +15,65 @@ public class DepositPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
-	@FindBy(xpath = "//*[@id=\"main-menu\"]/ul/li[4]/a")
-	private List<WebElement> transfersPage;
-
-	@FindBy(linkText = "Deposit")
-	private List<WebElement> depositPage;
-
-	@FindBy(id = "id")
-	private List<WebElement> depositAccount;
-
-	@FindBy(id = "amount")
-	private List<WebElement> depositAmount;
-
-	@FindBy(xpath = "//button[@class='btn btn-primary btn-sm']")
-	private List<WebElement> submitButton;
-
-	@FindBy(xpath = "//*[@id='right-panel']/div[2]/div/div/div/div/div/strong")
-	private List<WebElement> transfersVP;
 	
-	@FindBy(xpath = "//table[@id='transactionTable']/tbody/tr[1]/td[5]")
-	private List<WebElement> finalBalance;
+	
 
-	public List<WebElement> getFinalBalance() {
-		return finalBalance;
+	public WebDriver getDriver() {
+		return driver;
 	}
 
-	public List<WebElement> getTransfersPage() {
+	public WebElement getTransfersPage() {
 		return transfersPage;
 	}
 
-	public List<WebElement> getDepositPage() {
+	public WebElement getDepositPage() {
 		return depositPage;
 	}
 
-	public List<WebElement> getDepositAccount() {
+	public WebElement getDepositAccount() {
 		return depositAccount;
 	}
 
-	public List<WebElement> getDepositAmount() {
+	public WebElement getDepositAmount() {
 		return depositAmount;
 	}
 
-	public List<WebElement> getSubmitButton() {
+	public WebElement getSubmitButton() {
 		return submitButton;
 	}
 
-	public List<WebElement> getTransfersVP() {
+	public WebElement getTransfersVP() {
 		return transfersVP;
 	}
+
+	public WebElement getFinalBalance() {
+		return finalBalance;
+	}
+
+
+
+	@FindBy(xpath = "//*[@id=\"main-menu\"]/ul/li[4]/a")
+	private WebElement transfersPage;
+
+	@FindBy(linkText = "Deposit")
+	private WebElement depositPage;
+
+	@FindBy(id = "id")
+	private WebElement depositAccount;
+
+	@FindBy(id = "amount")
+	private WebElement depositAmount;
+
+	@FindBy(xpath = "//button[@class='btn btn-primary btn-sm']")
+	private WebElement submitButton;
+
+	@FindBy(xpath = "//*[@id='right-panel']/div[2]/div/div/div/div/div/strong")
+	private WebElement transfersVP;
+	
+	@FindBy(xpath = "//table[@id='transactionTable']/tbody/tr[1]/td[5]")
+	private WebElement finalBalance;
+
+	
 
 
 }

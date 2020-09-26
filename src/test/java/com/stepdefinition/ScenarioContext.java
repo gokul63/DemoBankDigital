@@ -8,6 +8,8 @@ public class ScenarioContext {
 	
 	private PageObjectManager pageObjectManager;
 	private WebDriver driver;
+	private String userName;
+	private String userPassword;
 	
 	public PageObjectManager getpageObjectManagerValue() {
 		return pageObjectManager;
@@ -23,7 +25,41 @@ public class ScenarioContext {
 	
 	public void setWebDriverValue(WebDriver driver) {
 		this.driver = driver;
+	}
+
+	public PageObjectManager getPageObjectManager() {
+		return pageObjectManager;
+	}
+
+	public void setPageObjectManager(PageObjectManager pageObjectManager) {
+		this.pageObjectManager = pageObjectManager;
+	}
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getUserPassword() {
+		return userPassword;
+	}
+
+	public void setUserPassword(String userPassword) {
+		this.userPassword = userPassword;
 	}	
+	
+	
 	
 	
 

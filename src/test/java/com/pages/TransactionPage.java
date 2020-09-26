@@ -17,6 +17,29 @@ public class TransactionPage {
 		PageFactory.initElements(driver, this);
 	}
 
+	
+	@FindBy(tagName = "th")
+	private List<WebElement> textHeading;
+
+	@FindBy(tagName = "tr")
+	private List<WebElement> textRow;
+
+	@FindBy(xpath = "//div[text()='gok']")
+	private WebElement lstTextUser;
+
+	@FindBy(xpath = "//div[contains(text(),'Balance')]")
+	private WebElement lstUserBalance;
+
+	@FindBy(xpath = "//span[@class='switch-handle']")
+	private WebElement lstButton;
+
+	@FindBy(linkText = "Next")
+	private WebElement lstScroll;
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
 	public List<WebElement> getTextHeading() {
 		return textHeading;
 	}
@@ -25,38 +48,20 @@ public class TransactionPage {
 		return textRow;
 	}
 
-	public List<WebElement> getLstTextUser() {
+	public WebElement getLstTextUser() {
 		return lstTextUser;
 	}
 
-	public List<WebElement> getLstUserBalance() {
+	public WebElement getLstUserBalance() {
 		return lstUserBalance;
 	}
 
-	public List<WebElement> getLstButton() {
+	public WebElement getLstButton() {
 		return lstButton;
 	}
 
-	public List<WebElement> getLstScroll() {
+	public WebElement getLstScroll() {
 		return lstScroll;
 	}
-
-	@FindBy(tagName = "th")
-	private List<WebElement> textHeading;
-
-	@FindBy(tagName = "tr")
-	private List<WebElement> textRow;
-
-	@FindBy(xpath = "//div[text()='gok']")
-	private List<WebElement> lstTextUser;
-
-	@FindBy(xpath = "//div[contains(text(),'Balance')]")
-	private List<WebElement> lstUserBalance;
-
-	@FindBy(xpath = "//span[@class='switch-handle']")
-	private List<WebElement> lstButton;
-
-	@FindBy(linkText = "Next")
-	private List<WebElement> lstScroll;
 
 }

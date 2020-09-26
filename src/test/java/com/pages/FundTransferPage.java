@@ -1,6 +1,6 @@
 package com.pages;
 
-import java.util.List;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,31 +16,37 @@ public class FundTransferPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public List<WebElement> getLstSender() {
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getLstSender() {
 		return lstSender;
 	}
 
-	public List<WebElement> getLstReceiver() {
+	public WebElement getLstReceiver() {
 		return lstReceiver;
 	}
 
-	public List<WebElement> getLstAmount() {
+	public WebElement getLstAmount() {
 		return lstAmount;
 	}
 
-	public List<WebElement> getLstSubmitButton() {
+	public WebElement getLstSubmitButton() {
 		return lstSubmitButton;
 	}
 
+
 	@FindBy(id="fromAccount")
-	private List<WebElement> lstSender;
+	private WebElement lstSender;
 	
 	@FindBy(id="toAccount")
-	private List<WebElement> lstReceiver;
+	private WebElement lstReceiver;
 	
 	@FindBy(id="amount")
-	private List<WebElement> lstAmount;
+	private WebElement lstAmount;
 	
-	@FindBy(xpath ="//button[@type='submit']")
-	private List<WebElement> lstSubmitButton;
+	@FindBy(xpath ="//button[text()=' Submit']")
+	private WebElement lstSubmitButton;
 }
