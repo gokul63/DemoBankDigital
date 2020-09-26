@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20819" started-at="2020-09-24T10:21:14Z" finished-at="2020-09-24T10:21:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.WebRunner@617faa95]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="20819" started-at="2020-09-24T10:21:14Z" finished-at="2020-09-24T10:21:35Z">
+      <class name="com.runner.WebRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.WebRunner@617faa95]" name="setUpClass" is-config="true" duration-ms="681" started-at="2020-09-24T10:21:14Z" finished-at="2020-09-24T10:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.WebRunner@617faa95]" name="runScenario" duration-ms="19941" started-at="2020-09-24T10:21:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-24T10:21:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify user can able to perform Saving account opening"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Digital Bank"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.WebRunner@617faa95]" name="tearDownClass" is-config="true" duration-ms="156" started-at="2020-09-24T10:21:35Z" finished-at="2020-09-24T10:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.WebRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

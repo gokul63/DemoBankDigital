@@ -1,0 +1,15 @@
+com\pages\FundTransferPage.class
+com\pages\TransactionPage.class
+com\pages\SavingsPage.class
+com\pages\HomePage.class
+com\pages\Logout.class
+com\runner\WebRunner.class
+com\pagemanager\PageObjectManager.class
+com\pages\DepositPage.class
+com\pages\LoginPage.class
+com\stepdefinition\WebHooks.class
+com\stepdefinition\ScenarioContext.class
+com\stepdefinition\WebCommonSteps.class
+com\stepdefinition\FundTransfer_StepDef.class
+com\stepdefinition\SavingsAccountCreation_StepDef.class
+com\stepdefinition\CashDeposit_StepDef.class

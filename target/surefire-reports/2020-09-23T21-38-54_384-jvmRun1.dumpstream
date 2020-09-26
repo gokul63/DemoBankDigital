@@ -1,0 +1,271 @@
+# Created at 2020-09-23T21:40:02.627
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-09-23T21:40:07.472
+Unexpected IOException: 8,1,com.runner.WebRunner,runScenario(com.runner.WebRunner),null,chrome not reachable\000A  (Session info: chrome=85.0.4183.102)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-FUFURT6'\002C ip: '192.168.43.84'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 85.0.4183.102\002C chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:52958}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 6cbc775a2e3c06285802016856021dfb\000A*** Element info: {Using=link text\002C value=Sign Up Here},null,chrome not reachable\000A  (Session info: chrome=85.0.4183.102)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-FUFURT6'\002C ip: '192.168.43.84'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 85.0.4183.102\002C chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:52958}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 6cbc775a2e3c06285802016856021dfb\000A*** Element info: {Using=link text\002C value=Sign Up Here},WebRunner.runScenario \00BB WebDriver chrome not reachable\000A  (Session info: chrome...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=85.0.4183.102)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-FUFURT6'\002C ip: '192.168.43.84'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 85.0.4183.102\002C chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa...\002C userDataDir: C:\005CUsers\005CDELL\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:52958}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 6cbc775a2e3c06285802016856021dfb\000A*** Element info: {Using=link text\002C value=Sign Up Here}\000A
+
+
+# Created at 2020-09-23T21:40:07.653
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.656
+Unexpected IOException with stream: Failed scenarios:
+
+# Created at 2020-09-23T21:40:07.657
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.658
+Unexpected IOException with stream: file:///C:/Users/DELL/Downloads/DigitalBank_App/src/test/resources/Features/dbBank.feature:42
+
+# Created at 2020-09-23T21:40:07.659
+Unexpected IOException with stream: # To verify user can able to perform Saving account opening
+
+# Created at 2020-09-23T21:40:07.659
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.660
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.661
+Unexpected IOException with stream: 1
+
+# Created at 2020-09-23T21:40:07.662
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-09-23T21:40:07.664
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-09-23T21:40:07.669
+Unexpected IOException with stream: )
+
+# Created at 2020-09-23T21:40:07.669
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.671
+Unexpected IOException with stream: 2
+
+# Created at 2020-09-23T21:40:07.671
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-09-23T21:40:07.672
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-09-23T21:40:07.673
+Unexpected IOException with stream: , 
+
+# Created at 2020-09-23T21:40:07.676
+Unexpected IOException with stream: 1 skipped
+
+# Created at 2020-09-23T21:40:07.678
+Unexpected IOException with stream: )
+
+# Created at 2020-09-23T21:40:07.678
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.679
+Unexpected IOException with stream: 1m
+
+# Created at 2020-09-23T21:40:07.681
+Unexpected IOException with stream: 9.886s
+
+# Created at 2020-09-23T21:40:07.682
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.683
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.684
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.685
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FUFURT6', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52958}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6cbc775a2e3c06285802016856021dfb
+*** Element info: {Using=link text, value=Sign Up Here}
+
+# Created at 2020-09-23T21:40:07.686
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.687
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-09-23T21:40:07.688
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.690
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-09-23T21:40:07.691
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.692
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-09-23T21:40:07.693
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.694
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-09-23T21:40:07.695
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.696
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-09-23T21:40:07.696
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.697
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-09-23T21:40:07.698
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.698
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-09-23T21:40:07.699
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.700
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-09-23T21:40:07.701
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.702
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-09-23T21:40:07.703
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.704
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-09-23T21:40:07.705
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.706
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+
+# Created at 2020-09-23T21:40:07.707
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.708
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByLinkText(RemoteWebDriver.java:384)
+
+# Created at 2020-09-23T21:40:07.709
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.710
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByLinkText.findElements(By.java:215)
+
+# Created at 2020-09-23T21:40:07.711
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.712
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+
+# Created at 2020-09-23T21:40:07.712
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.713
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+
+# Created at 2020-09-23T21:40:07.714
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.715
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+
+# Created at 2020-09-23T21:40:07.717
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.718
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy18.get(Unknown Source)
+
+# Created at 2020-09-23T21:40:07.719
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.720
+Unexpected IOException with stream: 	at com.stepdefinition.WebCommonSteps.launch_the_digital_bank_application_in_browser(WebCommonSteps.java:35)
+
+# Created at 2020-09-23T21:40:07.721
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.722
+Unexpected IOException with stream: 	at ?.Launch the digital bank application 'http://dbankdemo.com/login' in browser(file:///C:/Users/DELL/Downloads/DigitalBank_App/src/test/resources/Features/dbBank.feature:4)
+
+# Created at 2020-09-23T21:40:07.722
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.723
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.723
+Unexpected IOException with stream: java.lang.NullPointerException
+
+# Created at 2020-09-23T21:40:07.724
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.725
+Unexpected IOException with stream: 	at com.stepdefinition.WebHooks.endConnection(WebHooks.java:25)
+
+# Created at 2020-09-23T21:40:07.726
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.726
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.727
+Unexpected IOException with stream: 
+
+
+# Created at 2020-09-23T21:40:07.934
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,com.runner.WebRunner,null,null,null
+
+
