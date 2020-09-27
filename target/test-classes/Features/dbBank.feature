@@ -16,7 +16,7 @@ Feature: Digital Bank
       | TestCaseID |
       | DB001      |
       | DB002      |
-      | BD003      |
+      | DB003      |
 
   @test2
   Scenario Outline: To verify the application is able to perform deposit into account
@@ -44,4 +44,4 @@ Feature: Digital Bank
       | TestCaseID |
       | DB001      |
       | DB002      |
-      | BD003      |
+      | DB003      |

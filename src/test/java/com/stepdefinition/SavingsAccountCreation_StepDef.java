@@ -31,6 +31,8 @@ public class SavingsAccountCreation_StepDef extends ExcelData {
 	
 	@When("User gets {string} to perform  savings account opening")
 	public void user_gets_to_perform_savings_account_opening(String testCaseId) throws Exception {
+		
+		System.out.println("****Executing Saving Account Creation Scenario****");
 		userName = retriveData().get(testCaseId).get("UserName");
 		userPassword = retriveData().get(testCaseId).get("Password");
 		userNewSavingsAccount = retriveData().get(testCaseId).get("NewAccountName");
