@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="537" started-at="2020-09-26T17:08:42Z" finished-at="2020-09-26T17:08:42Z">
+  <suite started-at="2020-09-27T16:38:17 IST" name="Default suite" finished-at="2020-09-27T16:39:34 IST" duration-ms="76718">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.WebRunner@52a86356]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.WebRunner@446293d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="537" started-at="2020-09-26T17:08:42Z" finished-at="2020-09-26T17:08:42Z">
+    <test started-at="2020-09-27T16:38:17 IST" name="Default test" finished-at="2020-09-27T16:39:34 IST" duration-ms="76718">
       <class name="com.runner.WebRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.WebRunner@52a86356]" name="setUpClass" is-config="true" duration-ms="486" started-at="2020-09-26T17:08:42Z" finished-at="2020-09-26T17:08:42Z">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.runner.WebRunner@446293d]" started-at="2020-09-27T16:38:17 IST" name="setUpClass" finished-at="2020-09-27T16:38:17 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.WebRunner@52a86356]" name="tearDownClass" is-config="true" duration-ms="23" started-at="2020-09-26T17:08:42Z" finished-at="2020-09-26T17:08:42Z">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.WebRunner@446293d]" started-at="2020-09-27T16:38:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-27T16:39:33 IST" duration-ms="75882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify the application is able to perform deposit into account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Digital Bank"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.WebRunner@446293d]" started-at="2020-09-27T16:39:33 IST" name="tearDownClass" finished-at="2020-09-27T16:39:34 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

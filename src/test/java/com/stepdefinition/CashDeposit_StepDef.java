@@ -30,6 +30,8 @@ public class CashDeposit_StepDef extends ExcelData {
 	
 	@When("User gets {string} to perform  deposit into account")
 	public void user_gets_to_perform_deposit_into_account(String testCaseId) throws Exception {
+		
+		System.out.println("****Executing Cash Deposit Scenario****");
 		userName = retriveData().get(testCaseId).get("UserName");
 		userPassword = retriveData().get(testCaseId).get("Password");
 		userDepositAccount = retriveData().get(testCaseId).get("AccountForDeposit");
