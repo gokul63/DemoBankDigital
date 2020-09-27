@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = {"src/test/resources/Features" }, glue = "com.stepdefinition", 
 		strict = true, monochrome = true, dryRun=false,
-		plugin = {"json:target\\cucumber.json"}
+		plugin = {"json:target\\cucumber.json"}, tags = {"@test2"}
 		)
 
 public class WebRunner extends AbstractTestNGCucumberTests{
