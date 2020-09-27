@@ -15,6 +15,8 @@ Feature: Digital Bank
     Examples: 
       | TestCaseID |
       | DB001      |
+      | DB002      |
+      | BD003      |
 
   @test2
   Scenario Outline: To verify the application is able to perform deposit into account
@@ -29,7 +31,7 @@ Feature: Digital Bank
       | TestCaseID |
       | DB006      |
 
-  @test3
+  @test1
   Scenario Outline: To verify user can able to perform Saving account opening
     When User gets "<TestCaseID>" to perform  savings account opening
     And User enters the userName and password to log in to application
@@ -41,3 +43,5 @@ Feature: Digital Bank
     Examples: 
       | TestCaseID |
       | DB001      |
+      | DB002      |
+      | BD003      |
