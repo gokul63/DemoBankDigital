@@ -40,6 +40,7 @@ public class FundTransfer_StepDef extends ExcelData {
 
 	@When("User gets {string} to perform fundtransfer")
 	public void user_gets_to_perform_fundtransfer(String testCaseId) throws Exception {
+		System.out.println("****Executing Fund Transfer Scenario****");
 		userName = retriveData().get(testCaseId).get("UserName");
 		userPassword = retriveData().get(testCaseId).get("Password");
 		senderAccount = retriveData().get(testCaseId).get("SenderAccount");
